@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Set the page title and header
-st.title("BIENVENIDO A ESTADISTICAS DE CTECNO")
+st.title("ESTADISTICAS CTECNO")
 st.header("Bienvenido a nuestro Proyecto Integrador")
 
 # Hero Section with image and project description
