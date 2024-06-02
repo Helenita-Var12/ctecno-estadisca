@@ -18,8 +18,8 @@ st.write("- Un streamlit de Anatica de datos en pandas que permite generar difen
 
 # Interactive Chart or Visualization (Optional)
 # Replace with your specific data and visualization
-data = [10, 60, 30]
-labels = ["Accesorios", "Computadores", "Salas"]
+data = [10, 20, 30, 40, 50]
+labels = ["Categoría A", "Categoría B", "Categoría C", "Categoría D", "Categoría E"]
 fig, ax = plt.subplots()
 ax.pie(data, labels=labels, autopct="%1.1f%%")
 st.pyplot(fig)
