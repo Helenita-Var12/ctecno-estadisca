@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 
 # Set the page title and header
 st.title("ESTADISTICAS CTECNO")
-st.header("reserva salas y préstamos con facilidad")
+st.header("Reserva salas y préstamos con facilidad")
 
 # Hero Section with image and project description
-st.image("https://i1.sndcdn.com/artworks-nTgGESMaN9t5TBxQ-xO5rFg-t500x500.jpg", width=600)
-st.write(" este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
+st.image("imagen/logo_tecno.jpg", width=600)
+st.write(" Este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
 
 # Project Overview
 st.subheader("Resumen")
@@ -38,10 +38,10 @@ st.write("**Contáctenos:** [Enlace al correo electrónico de contacto](mailto:i
 # Footer with team members and project information
 st.subheader("Equipo y Contacto")
 st.write("**Miembros del equipo:**")
-st.write("- Nombre 1: Andres Quevedo.")
-st.write("- Nombre 2: Jonathan Mesa.")
-st.write("- Nombre 3: Manuela Orrego.")
-st.write("- Nombre 4: Stiven Londoño.")
-st.write("- Nombre 5: Helen Vargas.")
+st.write("- Andres Quevedo.")
+st.write("- Jonathan Mesa.")
+st.write("- Manuela Orrego.")
+st.write("- Stiven Londoño.")
+st.write("- Helen Vargas.")
 st.write("**Información de contacto:**")
 st.write("Correo electrónico: [Enlace al correo electrónico de contacto](mailto:ctecnoempresa@gmail.com )")
