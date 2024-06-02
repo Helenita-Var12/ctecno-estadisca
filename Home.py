@@ -11,21 +11,15 @@ st.image("imagen/Logo_ctecnoazul.jpg", width=600)
 st.write(" Este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
 
 # Project Overview
-st.subheader("Resumen")
-st.write("- Punto 1: Descripción detallada del punto 1 del proyecto.")
-st.write("- Punto 2: Descripción detallada del punto 2 del proyecto.")
-st.write("- Punto 3: Descripción detallada del punto 3 del proyecto.")
-
-# Features and Benefits
-st.subheader("Características y Beneficios")
-st.write("**Característica 1:** Descripción de la característica 1 y sus beneficios.")
-st.write("**Característica 2:** Descripción de la característica 2 y sus beneficios.")
-st.write("**Característica 3:** Descripción de la característica 3 y sus beneficios.")
+st.subheader("Resumen General ")
+st.write("- Pagina WEB hecha con react que Permite realizar reservas de salas de computo, reserva computadores y accesorios.")
+st.write("- Aplicativo de android que Permite realizar reservas de salas de computo, reserva computadores y accesorios.")
+st.write("- Un streamlit de Anatica de datos en pandas que permite generar difentes filtos.")
 
 # Interactive Chart or Visualization (Optional)
 # Replace with your specific data and visualization
-data = [10, 20, 30, 40, 50]
-labels = ["Categoría A", "Categoría B", "Categoría C", "Categoría D", "Categoría E"]
+data = [10, 60, 30]
+labels = ["Accesorios", "Computadores", "Salas"]
 fig, ax = plt.subplots()
 ax.pie(data, labels=labels, autopct="%1.1f%%")
 st.pyplot(fig)
