@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 
 # Set the page title and header
 st.title("ESTADISTICAS CTECNO")
-st.header("Bienvenido a nuestro Proyecto Integrador")
+st.header("reserva salas y préstamos con facilidad")
 
 # Hero Section with image and project description
 st.image("https://i1.sndcdn.com/artworks-nTgGESMaN9t5TBxQ-xO5rFg-t500x500.jpg", width=600)
-st.write("**Descripción del proyecto:** Breve descripción del proyecto, sus objetivos y su impacto.")
+st.write(" este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
 
 # Project Overview
-st.subheader("Resumen del Proyecto")
+st.subheader("Resumen")
 st.write("- Punto 1: Descripción detallada del punto 1 del proyecto.")
 st.write("- Punto 2: Descripción detallada del punto 2 del proyecto.")
 st.write("- Punto 3: Descripción detallada del punto 3 del proyecto.")
@@ -38,8 +38,10 @@ st.write("**Contáctenos:** [Enlace al correo electrónico de contacto](mailto:i
 # Footer with team members and project information
 st.subheader("Equipo y Contacto")
 st.write("**Miembros del equipo:**")
-st.write("- Nombre 1: Cargo en el equipo.")
-st.write("- Nombre 2: Cargo en el equipo.")
-st.write("- Nombre 3: Cargo en el equipo.")
+st.write("- Nombre 1: Andres Quevedo.")
+st.write("- Nombre 2: Jonathan Mesa.")
+st.write("- Nombre 3: Manuela Orrego.")
+st.write("- Nombre 4: Stiven Londoño.")
+st.write("- Nombre 5: Helen Vargas.")
 st.write("**Información de contacto:**")
-st.write("Correo electrónico: [Enlace al correo electrónico de contacto](mailto:info@example.com)")
+st.write("Correo electrónico: [Enlace al correo electrónico de contacto](mailto:ctecnoempresa@gmail.com )")
