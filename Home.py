@@ -7,7 +7,7 @@ st.title("ESTADISTICAS CTECNO")
 st.header("Reserva salas y computadores con facilidad")
 
 # Hero Section with image and project description
-st.image("imagen/Logo_ctecnoazul.jpg", width=600)
+st.image("imagen/Logo_ctecno.jpg", width=600)
 st.write(" Este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
 
 # Project Overview
@@ -18,8 +18,8 @@ st.write("- Un streamlit de Anatica de datos en pandas que permite generar difen
 
 # Interactive Chart or Visualization (Optional)
 # Replace with your specific data and visualization
-data = [10, 20, 30, 40, 50]
-labels = ["Categoría A", "Categoría B", "Categoría C", "Categoría D", "Categoría E"]
+data = [60, 30, 10]
+labels = ["Computadores", "Salas", "Accsesorios"]
 fig, ax = plt.subplots()
 ax.pie(data, labels=labels, autopct="%1.1f%%")
 st.pyplot(fig)
