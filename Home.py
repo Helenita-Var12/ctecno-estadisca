@@ -7,7 +7,7 @@ st.title("ESTADISTICAS CTECNO")
 st.header("Reserva salas y computadores con facilidad")
 
 # Hero Section with image and project description
-st.image("imagen/Logo_ctecno.jpg", width=600)
+st.image("imagen/Logo_ctecnoazul.jpg", width=600)
 st.write(" Este extencion del aplicativo te permite ver las estadisticas segun los filtros que prefieras")
 
 # Project Overview
