@@ -1,16 +1,15 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import datetime as dt
+
 
 st.title("ESTADISTICA DE COMPUTADORES ")
 
 df = pd.read_csv('static/datasets/compudata22.csv', parse_dates=['HORA'])
 
 
-DIA = st.multiselect('DIA', sorted(df['DIA'].unique()))
-HORA = st.multiselect('HORA', sorted(df['HORA'].dt.strftime('%H:%M').unique()))
+DIA = st.multiselect('DIA', sorted(set(df['DIA'].unique())))
+HORA = st.multiselect('HORA', sorted(set(df['HORA'].dt.strftime('%H:%M').unique())))
 
 
 df_filtrado = df[df['DIA'].isin(DIA) & df['HORA'].dt.strftime('%H:%M').isin(HORA)]
@@ -18,9 +17,10 @@ df_filtrado = df[df['DIA'].isin(DIA) & df['HORA'].dt.strftime('%H:%M').isin(HORA
 if not df_filtrado.empty:  
 
     DIA = df_filtrado['DIA'].tolist()
-    HORA = df_filtrado['HORA'].dt.strftime('%H:%M').tolist()
-
-    plt.plot(df_filtrado['DIA'], df_filtrado['HORA'])
+    HORA = df_filtrado['HORA'].tolist()
+    
+    #.dt.strftime('%H:%M')
+   
     plt.plot(DIA, HORA)
     plt.xlabel("Eje DIA")
     plt.ylabel("Eje HORA")  
